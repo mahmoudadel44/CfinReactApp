@@ -1,0 +1,319 @@
+body{
+    position: relative;
+}
+.light-color{
+    color: #00e5b9;
+}
+.dark-blue{
+color:#001769;
+} 
+.roboto-font{
+    font-family:Roboto;
+}
+
+.navbar-nav .nav-link{
+    font-size: 18px;
+    margin-left: 10px;
+    color:#001769 !important;
+    /* font-weight: bold; */
+    font-family:Roboto;
+    }
+.navbar-nav .nav-link{
+        padding: 0px;
+    }
+.navbar-nav .active>.nav-link{
+    border-bottom: 2px solid #00e5b9 !important; 
+    ;}
+
+.navbar .navImage{
+        width:115px;
+        height: 40px;
+    }
+.navbar form .btn,.signin form .btn{
+color:#001769 !important;
+background-color: #00e5b9;
+border-radius: 20px;
+margin-left: 10px;
+width: 90px;
+height: 28px;
+line-height: 12px;
+font-weight: bold;
+}
+.navbar form .btn:focus,.signin form .btn:focus,.signup form .btn:focus{
+    box-shadow: none;
+    outline: none;
+    }
+/* end navbar section */
+/* start signin section */
+.signin .signinimage,.signup .signupimage{
+    width: 220px;
+    height: 280px;
+}
+.signin .signinheader{
+    color:#00e5b9;
+    font-weight: bold;
+}
+::placeholder {
+    color: #001769;
+    opacity: 1; /* Firefox */
+  }
+.signin input{
+    border: none;
+    border-bottom: 1px solid #cccc;
+    margin: auto;
+    width:65%;
+    padding: 5px 0px !important;
+}
+
+.signin .form-group input:focus,.signup .form-group input:focus {
+  box-shadow: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+/* end signin section */
+/* start signup section */
+.signup .signupheader{
+    color: #001769;
+    font-weight: bold;
+}
+.signup p{
+    font-size: 15px;
+}
+.signup input{
+    border: none;
+    border-bottom: 1px solid #cccc;
+    padding: 5px 0px !important;
+}
+.signup .mobileinput,.signup .emailinput,.signup .passwordinput{
+    width: 65%;
+}
+.signup .firstnameinput,.signup .lastnameinput{
+    width: 30%;
+}
+.signup .form-group input:focus {
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+  }
+.signup form .btn{
+    color:#001769 !important;
+    background-color: #00e5b9;
+    border-radius: 20px;
+    width:30%;
+    height: 30px;
+    line-height: 15px;
+    font-weight: bold;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important; 
+    margin-left: 50px;
+}
+.signup .signupimage{
+    width: 220px;
+    height: 280px;
+}
+.signup .accounttext{
+    color:#001769 ;
+    font-weight: bold;
+}
+.signup a{
+    color:#001769;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.signup .signupimage{
+    width: 220px;
+    height: 360px;
+}
+/* end sign up section */
+
+
+/* Start About Us Section  */
+
+.about-us{
+    padding: 80px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.about-us .team-info{
+    font-size: 25px;
+    padding: 60px 35px;
+    color:#001769;
+}
+.about-us .about-img{
+    width: 350px;
+    float: right;
+    margin-right: 25px;
+}
+/* End About Us Section  */
+
+/* Start Our Culture */
+
+.our-culture{
+    background-color: #00e5b9;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.our-culture h2, .partners h2{
+    color:#001769;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.our-culture p{
+    font-size: 24px;
+    line-height: 1.2;
+}
+.our-culture span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* End Our Culture */
+
+/* Start Partners section */
+.partners{
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.partners img{
+    width: 510px;
+    height: 265px;
+    margin: 10px 0 20px 0;
+}
+.partners p{
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+  
+@media(max-width:992px){
+    .about-us{
+        padding: 10px 0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about-us .team-info{
+        padding: 10px;
+        color:#001769;
+    }
+    .about-us .about-img{width: 250px;}
+    .partners h2{font-size: 26px;}
+    .partners img{
+        width: 300px;
+        height: 150px;
+        margin: 10px 0;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+    .about-us .about-img{
+    width: 250px;
+    margin-right: 100px;
+    } 
+}
+/* End Partners section */
+
+/* start footer style */
+.footer{
+    background-color:#001769;
+}
+.footer .footerImage{
+width:100px;
+height: 100px;
+
+}
+.fab {
+    padding: 6px;
+    font-size: 12px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 3px;
+    border:1px solid #B1B1B1;
+    color:#fff;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook-f:hover ,.fa-linkedin:hover{
+    background: #3B5998;
+    color: #fff;
+  }
+  .fa-twitter:hover{
+    background-color:#55ACEE ;
+    color:#fff
+}
+ 
+.contact ul li{
+    font-size: 14px;
+    font-weight: bold;
+    color: #A9A9A9;
+}
+.social{
+color:#A9A9A9;
+font-size: 12px;
+}
+.contact ul li i,.links i{
+    color:#CCC;
+}
+.socialStyle{
+display: inline;
+}
+.links{
+    display: block;
+    color: #B1B1B1
+}
+.footer{
+    visibility: visible !important;
+}
+.footer .helpful-links h6,.footer .contact h6{
+    color: #00e5b9;
+}
+    .footer .helpful-links ul{
+        margin-left: 15px;
+    }
+.footer .helpful-links ul li{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+    /* @media(max-width:700px){
+        .signin .signinimage{
+            margin-left: 140px !important;
+         }
+    } */
+.footer .footerText{
+        line-height: 2.3;
+        padding: 25px 55px;
+    }
+.footer .para, .cfinspan{
+    color:#fff;
+    font-size: 14px;
+}
+.footer .cfinspan{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer .end span{
+    color:#fff;
+    font-size: 14px;
+}
+.footer a,.footer a:hover{
+text-decoration: none;
+cursor: pointer;
+}
+
+/* end contact us style  */
+
+/* Media Query */
+@media(max-width:992px){
+    .navbar .nav-item{width: 30%;}
+    .signup form .btn{width: 30%; margin: 0;}
+    .footer .contact ul li{ margin-bottom: 15px;}
+    .footer, .signup{ text-align: center;}
+    .footer .helpful-links h6,.footer .contact h6{ margin:20px 0px;}      
+}
+@media(min-width:992px){
+    .signupimage{margin-left: 130px;}    
+}
+@media (min-width:400px) and (max-width: 600px){
+    .signinimage{margin-left: 130px !important;} 
+    .navbar .nav-item{width: 22%;}
+}
+@media(max-width:400px){ .navbar .nav-item{width: 30%;}}
