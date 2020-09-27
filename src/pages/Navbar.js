@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import navLogo from '../images/home/logo.png'
 const Navbar = () => {
+    const [menu, setMenu] = useState(false)
+    const toggleMenu = () => {
+        setMenu(!menu)
+    }
+    const show = menu ? "show" : ""
     return (
         // start navbar section 
         <nav className="navbar navbar-expand-lg navbar-light roboto-font">
@@ -10,11 +15,12 @@ const Navbar = () => {
                     <img src={navLogo} className="navImage" alt="navLogo" />
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    onClick={toggleMenu}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="mainnav">
+                <div className={"collapse navbar-collapse " + show} id="mainnav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
                             <Link className="nav-link" to="/home">Home</Link>
