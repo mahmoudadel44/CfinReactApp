@@ -260,7 +260,21 @@ display: inline;
 }
 .footer{
     visibility: visible !important;
+    position: relative;
 }
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../src/images/home/footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 .footer .helpful-links h6,.footer .contact h6{
     color: #00e5b9;
 }
@@ -317,3 +331,151 @@ cursor: pointer;
     .navbar .nav-item{width: 22%;}
 }
 @media(max-width:400px){ .navbar .nav-item{width: 30%;}}
+
+
+
+
+
+/* Start Home Section */
+.introduction {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-top: 80px;
+}
+.introduction .par1{ font-size: 24px; padding: 60px 35px; color:#001769;}
+.introduction span{font-weight: bold;text-transform: uppercase;}
+.introduction .img1{width: 77%; float: right;}
+.introduction h6{
+  color:#001769;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.introduction .btn1, .introduction .btn2{
+  background-color: #00e5b9;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 20px;
+  color:#001769;
+  font-size: 19px;
+}
+.introduction .btn1:focus, .introduction .btn2:focus{ outline: none;}
+.introduction .before, .introduction .after{ padding-bottom: 70px;}
+.introduction .before .img2{width: 65%; margin-left: 5%;}
+.introduction .before .before-info{padding: 7% 15% 0 6%;}
+.introduction .before h4{color:#001769; font-weight: bold;}
+.introduction .before p, .introduction .after p{ font-size: 20px;}
+.introduction .after{ padding-top: 50px;}
+.introduction .after .after-info{ padding: 7% 15% 0 5%;}
+.introduction .after h4{ color:#001769;  font-weight: bold;}
+.introduction .after .img3{ width: 60%;margin-left: 10%;}
+.introduction .btn2{ padding: 5px 25px; margin-bottom: 6%;}
+.introduction .card-deck { margin: 0 13%;}
+.introduction .card-deck .card{ border-radius: 10px;}
+.introduction .card-deck .card:first-child{ padding-top: 35px;}
+.introduction .card-deck .card:last-child{ padding-top: 25px;}
+.introduction .card-deck .card:nth-child(2){ padding-top: 37px;}
+.introduction .card-deck .card-img1{ width: 70%;}
+.introduction .card-deck .card-img2{ width: 40%;}
+.introduction .card-deck .card-img3{width: 46%;}
+.introduction .card-deck .card-body {padding: 15px 0;}
+.introduction .card-body h2{font-size: 37px;color: #001769;margin-top: 5px;}
+.introduction .card-deck .card-body p{font-size: 14px;padding: 0 5px;
+  font-family: 'Roboto', sans-serif;}
+.introduction hr{
+   border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right,rgba(181, 185, 210, -1),
+  rgba(0, 23, 105, 1),rgba(181, 185, 210, -1));}
+.business{
+  background-color: #efeffe;
+  color: #001769;
+  padding: 18% 5% 6%;
+  position: relative;
+  margin-top: -115px;
+  z-index: -2;    
+}
+.business .concepts{padding-left: 6em;padding-right: 0;}
+.business h4{font-weight: bold;margin-bottom: 35px;}
+.business ul{padding-left: 8px;list-style: none;}
+.business li::before {
+  content: "";
+  background: #00e5b9;
+  border-radius: 50%;
+  margin: 0 15px 0 0;
+  padding: 5px 8px;
+  font-size: 4px;
+  text-align: center;
+}
+.feat{display: inline-block;}
+.business ul li {font-weight: bold;font-size: 17px;margin-bottom: 10px;}
+.business ul li p span{font-weight: normal;font-size: 15px;}
+.business img{width: 75%;margin-left: 20%;}
+.statistics{background-color: #00e5b9;padding: 35px 50px 20px;}
+.statistics h2{
+  color: #001769;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.statistics p{color: #fff;}
+.statistics button{
+  background-color: #fff;
+  font-size: 20px;
+  padding: 10px 35px;
+  margin-left: 25%;
+  color: #001769;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+}
+.statistics button:focus{outline: none;}
+.statistics img{width: 75%;float: right;}
+.statistics .start{ margin: 70px 0 30px 15px;}
+.firm{padding: 70px 0 20px;}
+.firm .firm-head{font-weight: bold; color: #001769;padding: 0px 25%;}
+.firm img{width: 75%; margin: 7% 10%;}
+.firm .form-group{padding: 35px 0;}
+.firm .form-group .touch{
+  color: #00e5b9;
+  margin: 0 0 5% 22%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.firm .form-input{margin-bottom: 20px;}
+.firm input{
+  border: none;
+  border-bottom: 1px solid #cccc;
+  margin: auto;
+  width:65%;
+  padding: 5px 0px !important;
+}
+.firm input:focus {box-shadow: none;outline: none;border-bottom: 1px solid #333;}
+.firm ::placeholder {color: #001769;opacity: 1; }
+.firm form button{
+  background-color: #00e5b9;
+  border-radius: 20px;
+  border: none;
+  color: #001769;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* End Home Section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

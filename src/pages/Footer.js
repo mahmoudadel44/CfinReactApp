@@ -6,6 +6,7 @@ const Footer = () => {
         //    start footer section 
 
         <section className="footer pt-5 pb-5 wow fadeInUp" id="contactus">
+          <div class="overlay"></div>  
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
